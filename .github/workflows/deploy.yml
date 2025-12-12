@@ -22,9 +22,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Vite globally (fix permission issue)
-        run: npm install -g vite
-
       - name: Build project
         run: npm run build
 
